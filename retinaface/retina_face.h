@@ -295,7 +295,7 @@ static int detect_retinaface(const cv::Mat &bgr, std::vector<FaceObject> &faceob
     retinaface.load_param(param_path);
     retinaface.load_model(model_path);
 
-    const float prob_threshold = 0.85f;
+    const float prob_threshold = 0.8f;
     const float nms_threshold = 0.4f;
 
     int img_w = bgr.cols;
