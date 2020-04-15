@@ -20,8 +20,8 @@
 namespace rf
 {
 
-const char *model_path = "/home/haitien/Pictures/retinaface_ncnn/model/mnet.25-opt.bin";
-const char *param_path = "/home/haitien/Pictures/retinaface_ncnn/model/mnet.25-opt.param";
+const char *model_path = "../model/mnet.25-opt.bin";
+const char *param_path = "../model/mnet.25-opt.param";
 
 struct FaceObject
 {
